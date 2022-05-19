@@ -17,7 +17,7 @@ The script then defines the model, using a pretrained model (```VGG16```). I fou
 The model then trains, plots the loss and accuracy across epochs and saves it to the ```out``` folder, with a user-defined filename. The script then generates a classification report and save it to the ```out``` folder with a user-defined filename.
 
 ## Usage
-To run this script you should point the command line to the ```vis_self_assigned``` folder.
+To run this script you should point the command line to the ```vis_self_assigned``` folder as well as run the ```setup.sh```.
 The script has 5 command line arguments:
 ```--vis_name``` which defines the filename of the loss + accuracy plot, such as ```loss_accuracy_plot.png```
 ```rep_name``` which defines the filename of the classification report, such as ```classification_rep.csv```
